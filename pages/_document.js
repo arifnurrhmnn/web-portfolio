@@ -12,10 +12,12 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <link rel="stylesheet" href="/css/swiper-bundle.min.css"></link>
         </Head>
         <body>
           <Main />
           <NextScript />
+          <script src="/js/swiper-bundle.min.js"></script>
         </body>
       </Html>
     );

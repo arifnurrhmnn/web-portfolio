@@ -51,7 +51,7 @@ export default function About() {
             </div>
 
             <div className="about__buttons">
-              <a href="/img/project.png" className="button button--flex">
+              <a href="#" className="button button--flex">
                 Download CV
                 <UilFileDownloadAlt className="button__icon" />
               </a>
