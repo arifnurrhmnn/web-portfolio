@@ -57,23 +57,21 @@ export default function Portfolio() {
                 key={portfolio.id}
                 className="portfolio__content grid swiper-slide"
               >
-                <div className="slide-content">
-                  <div className="image">
-                    <img src={portfolio.image} alt="" className="user-photo" />
-                  </div>
-                  <div className="portfolio__data">
-                    <h3 className="portfolio__title">{portfolio.title}</h3>
-                    <p className="portfolio__description">
-                      {portfolio.description}
-                    </p>
-                    <a
-                      href="#"
-                      className="button button--flex button--small portfolio__button"
-                    >
-                      Demo
-                      <UilArrowRight className="button__icon" />
-                    </a>
-                  </div>
+                <div className="image">
+                  <img src={portfolio.image} alt="" className="user-photo" />
+                </div>
+                <div className="portfolio__data">
+                  <h3 className="portfolio__title">{portfolio.title}</h3>
+                  <p className="portfolio__description">
+                    {portfolio.description}
+                  </p>
+                  <a
+                    href="#"
+                    className="button button--flex button--small portfolio__button"
+                  >
+                    Demo
+                    <UilArrowRight className="button__icon" />
+                  </a>
                 </div>
               </div>
             ))}
@@ -84,7 +82,6 @@ export default function Portfolio() {
           <div className="swiper-button-prev">
             <UilAngleLeft className="swiper-portfolio-icon" />
           </div>
-
           <div className="swiper-pagination"></div>
         </div>
       </section>
